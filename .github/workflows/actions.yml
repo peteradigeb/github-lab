@@ -12,4 +12,7 @@ jobs:
 
     steps:
       - name: Print message
-        run: echo "Hello, DevOps 🚀"
+        run:
+          echo "Hello, Peter 🚀"
+          date
+          uname -a
